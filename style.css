@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+html {
+    --cor-principal:hsl(213, 19%, 18%);
+    --cor-texto: hsl(217, 12%, 63%);
+    --cor-titulo:hsl(0, 0%, 100%);
+    --cor-fundo: hsl(216, 12%, 8%);
+    --cor-botao5: hsl(25, 97%, 53%);
+    --cor-botao1: hsl(216, 12%, 54%);
+}
+
+body {
+    background-color: var(--cor-fundo);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.section-1{
+    background-color: var(--cor-principal);
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.section-2 {
+    background-color: var(--cor-principal);
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    flex-direction: column;
+}
+
+.section-2 {
+    display: none;
+}
+
+.p-2 {
+    color: var(--cor-botao1);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.h1-2 {
+    color: var(--cor-titulo);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.img-2 {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.div-img-2 {
+    background-color: var(--cor-fundo);
+    width: 170px;
+    height: 30px;
+    border-radius: 50px;
+    color: var(--cor-botao5);
+    text-align: center;
+    padding: 8px 0;
+    font-size: 0.6em;
+    margin-left: 40px;
+}
+
+.img-2 {
+    margin-left: 40px;
+}
+
+.div-img {
+    border-radius: 50%;
+    border: none;
+    background-color: var(--cor-fundo);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1-1 {
+    color: var(--cor-titulo);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.p-1 {
+    color: var(--cor-botao1);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.multiple-button {
+    background-color: var(--cor-botao1);
+    color: var(--cor-principal);
+    border-radius: 50%;
+    border: none;
+    width: 35px;
+    height: 35px;
+    margin-right: 13px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.button-submit {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: var(--cor-botao5);
+    border: none;
+    color: var(--cor-titulo);
+    font-weight: 700;
+} 
+
+.multiple-button:hover {
+    background-color: var(--cor-titulo)
+}
+
+.multiple-button:focus {
+    background-color: var(--cor-botao5);
+    color: var(--cor-titulo);
+}
+
+.button-submit:hover {
+   background-color: var(--cor-titulo);
+   color: var(--cor-botao5);
+}
+
+
